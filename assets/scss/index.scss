@@ -1,0 +1,116 @@
+a{
+	text-decoration:none;
+}
+@function rem($px){
+	@return $px/108px*1rem;
+}
+.header{
+	height:rem(120px);
+	width:100%;
+	background:{
+		image:url(../images/title.png);
+		size:100% 100%;
+	}
+}
+.search{
+	height:rem(84px);
+	margin:rem(30px) rem(30px);
+	border-radius:rem(10px);
+	background-color:#efefef;
+	text-align:center;
+	line-height:rem(84px);
+	img{
+		height:rem(70px);
+		vertical-align:middle;
+	}
+	input{
+		vertical-align:middle;
+		font-size:rem(36px);
+		color:#9c9a9c;
+		background-color:#efefef;
+		border:0;
+		outline:0;
+	}
+}
+.nav{
+	height:rem(240px);
+	margin:0 rem(30px);
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	line-height:rem(240px);
+	img{
+		width:rem(435px);
+		vertical-align:middle;
+	}
+	.nav-left{
+		width:rem(495px);
+		border-radius:rem(10px);
+		background-color:#deeff7;
+	}
+	.nav-right{
+		width:rem(495px);
+		border-radius:rem(10px);
+		background-color:#def7f7;
+	}	
+}
+.section{
+	min-height:rem(1000px);
+	background-color:#efefef;
+	margin-top:rem(30px);
+	padding-top:rem(30px);
+	.doct{
+		height:rem(125px);
+		display:flex;
+		justify-content:space-between;
+		text-align:center;
+		line-height:rem(125px);	
+		background-color:#fff;
+		margin-bottom:rem(30px);
+		.doct-left{
+			margin-left:rem(40px);
+			b{
+				font-weight:800;
+			}
+		}
+		.doct-right{
+			margin-right:rem(40px);
+			line-height:rem(125px);
+			span{
+				display:inline-block;
+				width:rem(6px);
+				height:rem(64px);
+				background-color:#efefef;
+			}
+			.iconfont{
+				font-size:rem(64px);
+				color:#94929c;
+				margin-left:rem(40px);
+			}
+		}
+	}
+	.doc-name{
+		margin:rem(30px) rem(30px);
+		height:rem(180px);
+		display:flex;
+		justify-content:space-between;
+		.name{
+			width:rem(500px);
+			background-color:#fff;
+			border-radius:rem(10px);
+			text-align:center;
+			line-height:rem(180px);	
+			font-size:rem(48px);
+			font-weight:800;
+			color:#4a596b;				
+			img{
+				display:inline-block;
+				//float:left;
+				width:rem(120px);
+				height:rem(120px);
+				vertical-align:middle;
+				margin:0 rem(20px);
+			}
+		}		
+	}
+}

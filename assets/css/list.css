@@ -1,0 +1,131 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 1.11111rem;
+  width: 100%;
+  background-image: url(../images/title.png);
+  background-size: 100% 100%;
+}
+
+.daohang {
+  height: 1.38889rem;
+  line-height: 1.38889rem;
+  padding: 0 0.44444rem;
+  border-bottom: 0.01852rem solid #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.daohang img {
+  width: 0.55556rem;
+  height: 0.55556rem;
+  vertical-align: middle;
+}
+
+.daohang strong {
+  color: #4a596b;
+  font-size: 0.46296rem;
+  font-weight: 800;
+  padding: 0 0.23148rem;
+}
+
+.daohang span {
+  color: #737573;
+  font-size: 0.33333rem;
+}
+
+.daohang .iconfont {
+  color: #cecfce;
+  font-size: 0.41667rem;
+}
+
+.logo {
+  height: 2.96296rem;
+  margin: 0 0.44444rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 1.66667rem;
+  width: 1.66667rem;
+  margin-top: 0.64815rem;
+}
+
+.logo .logo-text {
+  display: inline-block;
+  padding: 0.60185rem 0;
+}
+
+.logo .logo-text h1 {
+  color: #4a596b;
+  font-size: 0.46296rem;
+  padding: 0.13889rem 0;
+}
+
+.logo .logo-text p {
+  margin: 0.13889rem 0;
+  font-size: 0.37037rem;
+  color: #9c9a9c;
+  height: 0.46296rem;
+  width: 6.34259rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.logo .logo-text p .iconfont {
+  font-size: 0.33333rem;
+  color: #cecfde;
+  padding-right: 0.18519rem;
+}
+
+.logo .logo-text p span {
+  padding-left: 0.27778rem;
+  color: #ff6700;
+}
+
+.logo .icon-daohang-youjiantou {
+  color: #cecfce;
+  font-size: 0.41667rem;
+  margin-top: 1.2963rem;
+}
+
+.jiange {
+  height: 0.27778rem;
+  background-color: #efefef;
+}
+
+.zhuanjia {
+  position: relative;
+}
+
+.zhuanjia .list p {
+  width: 3.88889rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  padding: 0 0.44444rem;
+  background-color: #fffbff;
+  color: #4a596b;
+  font-size: 0.42593rem;
+}
+
+.zhuanjia .show {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.zhuanjia .show p {
+  width: 4.90741rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  background-color: #fffbff;
+  color: #4a596b;
+  font-size: 0.42593rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

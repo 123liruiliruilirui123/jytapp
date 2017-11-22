@@ -1,0 +1,121 @@
+a{
+	text-decoration:none;
+}
+@function rem($px){
+	@return $px/108px*1rem;
+}
+.header{
+	height:rem(120px);
+	width:100%;
+	background:{
+		image:url(../images/title.png);
+		size:100% 100%;
+	}
+}
+.daohang{
+	height:rem(150px);
+	line-height:rem(150px);
+	padding:0 rem(48px);
+	border-bottom:rem(2px) solid #e7e7e7;
+	display:flex;
+	justify-content:space-between;
+	img{
+		width:rem(60px);
+		height:rem(60px);
+		vertical-align:middle;
+	}
+	strong{
+		color:#4a596b;
+		font-size:rem(50px);
+		font-weight:800;
+		padding:0 rem(25px);
+	}
+	span{
+		color:#737573;
+		font-size:rem(36px);
+	}
+	.iconfont{
+		color:#cecfce;
+		font-size:rem(45px);
+	}
+}
+.logo{
+	height:rem(320px);
+	//line-height:rem(320px);
+	margin:0 rem(48px);
+	display:flex;
+	justify-content:space-between;	
+	img{
+		height:rem(180px);
+		width:rem(180px);
+		margin-top:rem(70px);
+	}
+	.logo-text{
+		display:inline-block;
+		padding:rem(65px) 0;
+		h1{
+			color:#4a596b;
+			font-size:rem(50px);
+			padding:rem(15px) 0;			
+		}
+		p{
+			margin:rem(15px) 0;
+			font-size:rem(40px);
+			color:#9c9a9c;
+			height:rem(50px);
+			width:rem(685px);
+			white-space:nowrap;
+			text-overflow:ellipsis;
+			overflow:hidden;
+			.iconfont{
+				font-size:rem(36px);
+				color:#cecfde;
+				padding-right:rem(20px);
+			}
+			span{
+				padding-left:rem(30px);
+				color:#ff6700;
+			}
+		}
+	}
+	.icon-daohang-youjiantou{
+		color:#cecfce;
+		font-size:rem(45px);
+		margin-top:rem(140px);
+	}	
+}
+.jiange{
+	height:rem(30px);
+	background-color:#efefef;	
+}
+.zhuanjia{
+	position:relative;
+	//padding:0 rem(48px);
+	.list{
+		p{
+			width:rem(420px);
+			height:rem(135px);
+			line-height:rem(135px);
+			padding:0 rem(48px);
+			background-color:#fffbff;
+			color:#4a596b;
+			font-size:rem(46px);
+		}	
+	}		
+	.show{
+		position:absolute;
+		right:0;
+		top:0;
+		p{
+			width:rem(530px);
+			height:rem(135px);
+			line-height:rem(135px);
+			background-color:#fffbff;
+			color:#4a596b;
+			font-size:rem(46px);
+			white-space:nowrap;
+			text-overflow:ellipsis;
+			overflow:hidden;			
+		}			
+	}
+}

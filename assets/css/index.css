@@ -1,0 +1,128 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 1.11111rem;
+  width: 100%;
+  background-image: url(../images/title.png);
+  background-size: 100% 100%;
+}
+
+.search {
+  height: 0.77778rem;
+  margin: 0.27778rem 0.27778rem;
+  border-radius: 0.09259rem;
+  background-color: #efefef;
+  text-align: center;
+  line-height: 0.77778rem;
+}
+
+.search img {
+  height: 0.64815rem;
+  vertical-align: middle;
+}
+
+.search input {
+  vertical-align: middle;
+  font-size: 0.33333rem;
+  color: #9c9a9c;
+  background-color: #efefef;
+  border: 0;
+  outline: 0;
+}
+
+.nav {
+  height: 2.22222rem;
+  margin: 0 0.27778rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 2.22222rem;
+}
+
+.nav img {
+  width: 4.02778rem;
+  vertical-align: middle;
+}
+
+.nav .nav-left {
+  width: 4.58333rem;
+  border-radius: 0.09259rem;
+  background-color: #deeff7;
+}
+
+.nav .nav-right {
+  width: 4.58333rem;
+  border-radius: 0.09259rem;
+  background-color: #def7f7;
+}
+
+.section {
+  min-height: 9.25926rem;
+  background-color: #efefef;
+  margin-top: 0.27778rem;
+  padding-top: 0.27778rem;
+}
+
+.section .doct {
+  height: 1.15741rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 1.15741rem;
+  background-color: #fff;
+  margin-bottom: 0.27778rem;
+}
+
+.section .doct .doct-left {
+  margin-left: 0.37037rem;
+}
+
+.section .doct .doct-left b {
+  font-weight: 800;
+}
+
+.section .doct .doct-right {
+  margin-right: 0.37037rem;
+  line-height: 1.15741rem;
+}
+
+.section .doct .doct-right span {
+  display: inline-block;
+  width: 0.05556rem;
+  height: 0.59259rem;
+  background-color: #efefef;
+}
+
+.section .doct .doct-right .iconfont {
+  font-size: 0.59259rem;
+  color: #94929c;
+  margin-left: 0.37037rem;
+}
+
+.section .doc-name {
+  margin: 0.27778rem 0.27778rem;
+  height: 1.66667rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .doc-name .name {
+  width: 4.62963rem;
+  background-color: #fff;
+  border-radius: 0.09259rem;
+  text-align: center;
+  line-height: 1.66667rem;
+  font-size: 0.44444rem;
+  font-weight: 800;
+  color: #4a596b;
+}
+
+.section .doc-name .name img {
+  display: inline-block;
+  width: 1.11111rem;
+  height: 1.11111rem;
+  vertical-align: middle;
+  margin: 0 0.18519rem;
+}
