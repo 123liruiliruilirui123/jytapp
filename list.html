@@ -10,7 +10,7 @@
 	<!--页面核心css文件-->
 	<link rel="stylesheet" href="assets/css/list.css">
 	<!--页面图标样式-->
-	<link rel="stylesheet" href="//at.alicdn.com/t/font_329758_m6hv4z1s7zh3erk9.css">
+	<link rel="stylesheet" href="assets/font/iconfont.css">
 	<!--插件-->	
 </head>
 <body>
@@ -35,24 +35,17 @@
 	<div class="jiange"></div>
 	<div class="zhuanjia">
 		<div class="list">
-			<p>知名专家团队</p>
-			<p>专病专症门诊</p>
-			<p>专病专家门诊</p>
-			<p>内科</p>
+			<router-link to="/show1"><p v-on:click="chgColor(this)">知名专家团队</p></router-link>
+			<router-link to="/show2"><p v-on:click="chgColor(this)">专病专症门诊</p></router-link>
+			<router-link to="/show3"><p>专病专家门诊</p></router-link>
+			<router-link to="/show4"><p>内科</p></router-link>
 			<p>外科</p>
 			<p>皮肤性病科</p>
 			<p>康复理疗科</p>
+			<router-view></router-view>
 		</div>
-		<div class="show">
-			<p>龚树生教授耳鸣、耳聋、中耳炎等</p>
-			<p>李鹏教授消化疾病知名专家</p>
-			<p>继明教授消化疾病知名专家</p>
-			<p>吴东勇教授消化疾病知名专家</p>
-			<p>余力勇教授消化疾病知名专家</p>
-			<p>王彩娟勇教授消化疾病知名专家</p>
-			<p>李锐教授消化疾病知名专家</p>
-		</div>
-		<div class="show">
+		<template id="show1">
+		<div class="show show1">
 			<p>龚树生教授耳鸣、耳聋、中耳炎等</p>
 			<p>李鹏教授消化疾病知名专家</p>
 			<p>继明教授消化疾病知名专家</p>
@@ -61,24 +54,43 @@
 			<p>王彩娟勇教授消化疾病知名专家</p>
 			<p>李锐教授消化疾病知名专家</p>
 		</div>
-		<div class="show">
-			<p>龚树生教授耳鸣、耳聋、中耳炎等</p>
-			<p>李鹏教授消化疾病知名专家</p>
-			<p>继明教授消化疾病知名专家</p>
-			<p>吴东勇教授消化疾病知名专家</p>
-			<p>余力勇教授消化疾病知名专家</p>
-			<p>王彩娟勇教授消化疾病知名专家</p>
+		</template>
+		<template id="show2">
+		<div class="show show2">
+			<p>龚树生教授骨质疏松疾病专家</p>
+			<p>李玉呼吸道科知名专家</p>
+			<p>赵鑫珊教授呼吸道疾病专家</p>
+			<p>邱宇教授呼吸知名专家</p>
+			<p>王小蒙教授呼吸道知名专家</p>
+			<p>夏雨教授呼吸科知名专家</p>
 			<p>李锐教授消化疾病知名专家</p>
-		</div>	
-		<div class="show">
+		</div>
+		</template>
+		<template id="show3">
+		<div class="show show3">
+			<p>李启荣心理疾病专家</p>
+			<p>白金梅教授心理健康知名专家</p>
+			<p>赵晓英教授心理咨询知名专家</p>
+			<p>段抚顺教授心理疾病知名专家</p>
+			<p>王道勇教授心理疾病知名专家</p>
+			<p>王彩娟勇教授心理疾病知名专家</p>
+			<p>侯明玉教授心里疾病知名专家</p>
+		</div>
+		</template>
+		<template id="show4">	
+		<div class="show show4">
 			<p>龚树生教授耳鸣、耳聋、中耳炎等</p>
-			<p>李鹏教授消化疾病知名专家</p>
-			<p>继明教授消化疾病知名专家</p>
-			<p>吴东勇教授消化疾病知名专家</p>
-			<p>余力勇教授消化疾病知名专家</p>
-			<p>王彩娟勇教授消化疾病知名专家</p>
-			<p>李锐教授消化疾病知名专家</p>
-		</div>					
+			<p>李鹏教授不孕不育专家</p>
+			<p>继明教授不孕不育知名专家</p>
+			<p>吴东勇教授不孕不育知名专家</p>
+			<p>张大大教授不孕不育知名专家</p>
+			<p>吴昕勇教授不孕不育知名专家</p>
+			<p>何炅教授不孕不育知名专家</p>
+		</div>
+		</template>					
 	</div>
+	<script src="node_modules/vue/dist/vue.min.js"></script>
+	<script src="node_modules/vue-router/dist/vue-router.min.js"></script>
+	<script src="assets/js/list.js"></script>
 </body>
 </html>

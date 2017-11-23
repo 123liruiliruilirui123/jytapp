@@ -129,3 +129,7 @@ a {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+.active {
+  color: red;
+}

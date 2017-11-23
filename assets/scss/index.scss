@@ -55,7 +55,7 @@ a{
 	}	
 }
 .section{
-	min-height:rem(1000px);
+	height:rem(1200px);
 	background-color:#efefef;
 	margin-top:rem(30px);
 	padding-top:rem(30px);
@@ -100,9 +100,9 @@ a{
 			border-radius:rem(10px);
 			text-align:center;
 			line-height:rem(180px);	
-			font-size:rem(48px);
 			font-weight:800;
-			color:#4a596b;				
+			color:#4a596b;
+			font-size:rem(48px);								
 			img{
 				display:inline-block;
 				//float:left;
@@ -110,6 +110,11 @@ a{
 				height:rem(120px);
 				vertical-align:middle;
 				margin:0 rem(20px);
+			}
+			a{
+				font-weight:800;
+				color:#4a596b;
+				font-size:rem(48px);					
 			}
 		}		
 	}

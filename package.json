@@ -16,7 +16,10 @@
     "url": "https://github.com/123liruiliruilirui123/jytapp/issues"
   },
   "homepage": "https://github.com/123liruiliruilirui123/jytapp#readme",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^2.5.8",
+    "vue-router": "^3.0.1"
+  },
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",

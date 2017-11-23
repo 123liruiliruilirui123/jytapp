@@ -1,0 +1,119 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  background-color: #eee;
+}
+
+.header {
+  height: 1.11111rem;
+  width: 100%;
+  background-image: url(../images/title.png);
+  background-size: 100% 100%;
+}
+
+.nav {
+  width: 100%;
+  height: 1.38889rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.nav div {
+  width: 50%;
+  text-align: center;
+  line-height: 1.38889rem;
+  border: 0.00926rem solid #ddd;
+  color: block;
+  font-size: 0.40741rem;
+}
+
+.nav div:nth-child(1) {
+  border-right: 0;
+  color: #66cee3;
+  font-size: 0.40741rem;
+  font-weight: 800;
+}
+
+.shuru {
+  height: 2.77778rem;
+  border-top: 0.00926rem solid #ddd;
+  border-bottom: 0.00926rem solid #ddd;
+  margin-top: 0.27778rem;
+  padding-left: 0.44444rem;
+  background-color: #fff;
+}
+
+.shuru div {
+  position: relative;
+  height: 1.38889rem;
+  line-height: 1.38889rem;
+}
+
+.shuru div span {
+  width: 2.77778rem;
+  color: #4e5a6c;
+  display: inline-block;
+  font-size: 0.42593rem;
+  font-weight: 800;
+}
+
+.shuru div input {
+  border: 0;
+  outline: 0;
+  font-size: 0.40741rem;
+}
+
+.shuru div .anniu {
+  position: absolute;
+  bottom: 0.23148rem;
+  right: 0.92593rem;
+  width: 2.4537rem;
+  height: 0.77778rem;
+  border: 0.03704rem solid #ccc;
+  border-radius: 0.18519rem;
+  line-height: 0.77778rem;
+  text-align: center;
+}
+
+.shuru div:nth-child(1) {
+  border-bottom: 0.00926rem solid #ddd;
+}
+
+.tijiao {
+  width: 100%;
+  background-color: #eee;
+}
+
+.tijiao .yan {
+  color: #999;
+  font-size: 0.35185rem;
+  line-height: 1.11111rem;
+  text-align: right;
+  padding-right: 0.41667rem;
+}
+
+.tijiao input {
+  border: 0;
+  outline: 0;
+  width: 9.25926rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  font-size: 0.46296rem;
+  font-weight: 800;
+  color: #FFF;
+  margin: 0 0.41667rem;
+  text-align: center;
+  border-radius: 0.18519rem;
+  background-color: #b2b2b2;
+}
+
+.tijiao .footer {
+  margin: 0.55556rem 0.41667rem;
+  color: #999;
+  font-size: 0.35185rem;
+  line-height: 0.55556rem;
+}

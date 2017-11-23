@@ -10,7 +10,7 @@
 	<!--页面核心css文件-->
 	<link rel="stylesheet" href="assets/css/index.css">
 	<!--页面图标样式-->
-	<link rel="stylesheet" href="//at.alicdn.com/t/font_329758_to2to3obpf8t1emi.css">
+	<link rel="stylesheet" href="assets/font/iconfont.css">
 	<!--插件-->
 </head>
 <body>
@@ -20,7 +20,7 @@
 		<input type="text" value="搜索疾病、科室、医院">
 	</div>
 	<div class="nav">
-		<div class="nav-left"><img src="assets/images/1.png"></div>
+		<a href="show.html"><div class="nav-left"><img src="assets/images/1.png"></div></a>
 		<div class="nav-right"><img src="assets/images/2.png"></div>
 	</div>
 	<div class="section">
@@ -32,10 +32,10 @@
 			</div>
 		</div>
 		<div class="doc-name">
-			<div class="name">
+			<a href="list.html"><div class="name">
 				<img src="assets/images/y1.png">
 				北京友谊医院
-			</div>
+			</div></a>
 			<div class="name">
 				<img src="assets/images/y2.png">
 				北京同仁医院
@@ -83,4 +83,7 @@
 		</div>								
 	</div>
 </body>
+<script src="node_modules/vue/dist/vue.min.js"></script>
+<script src="node_modules/vue-router/dist/vue-router.min.js"></script>
+<script src="assets/js/index.js"></script>
 </html>

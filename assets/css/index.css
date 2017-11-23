@@ -59,7 +59,7 @@ a {
 }
 
 .section {
-  min-height: 9.25926rem;
+  height: 11.11111rem;
   background-color: #efefef;
   margin-top: 0.27778rem;
   padding-top: 0.27778rem;
@@ -114,9 +114,9 @@ a {
   border-radius: 0.09259rem;
   text-align: center;
   line-height: 1.66667rem;
-  font-size: 0.44444rem;
   font-weight: 800;
   color: #4a596b;
+  font-size: 0.44444rem;
 }
 
 .section .doc-name .name img {
@@ -125,4 +125,10 @@ a {
   height: 1.11111rem;
   vertical-align: middle;
   margin: 0 0.18519rem;
+}
+
+.section .doc-name .name a {
+  font-weight: 800;
+  color: #4a596b;
+  font-size: 0.44444rem;
 }

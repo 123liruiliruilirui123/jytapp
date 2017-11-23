@@ -90,7 +90,6 @@ a{
 }
 .zhuanjia{
 	position:relative;
-	//padding:0 rem(48px);
 	.list{
 		p{
 			width:rem(420px);
@@ -118,4 +117,7 @@ a{
 			overflow:hidden;			
 		}			
 	}
+}
+.active{
+	color:red;
 }
